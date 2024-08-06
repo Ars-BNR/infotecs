@@ -1,0 +1,59 @@
+.Block {
+    padding: 20px 0px;
+}
+
+.Title {
+    margin-bottom: 20px;
+}
+
+.Table__block {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+    text-align: left;
+}
+
+.Table__header {
+    background-color: #f2f2f2;
+    padding: 12px 15px;
+    border-right: 5px solid rgb(155, 155, 155);
+    resize: horizontal;
+    overflow: auto;
+    min-width: 50px;
+}
+
+.sort {
+    cursor: pointer;
+}
+
+.Table__cell:first-child:hover {
+    color: rgb(255, 76, 5);
+    cursor: pointer;
+}
+
+
+
+.Table__cell {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+    border-right: 5px solid rgb(155, 155, 155);
+
+}
+
+.Table__block tbody tr:hover {
+    background-color: #f1f1f1;
+    border-bottom: 2px solid black;
+
+}
+
+.User__block {
+    -webkit-box-shadow: -1px 4px 21px 8px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: -1px 4px 21px 8px rgba(34, 60, 80, 0.2);
+    box-shadow: -1px 4px 21px 8px rgba(34, 60, 80, 0.2);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.User__item {
+    margin-bottom: 10px;
+}
